@@ -1,22 +1,55 @@
 .header{
   background: #000000;
+  .uk-logo{
+    img{
+      height: 40px;
+      @include media-breakpoint-up('m'){
+        height: 59px;
+      }
+    }
+  }
   &__navItem{
-    min-height: 69px;
+    min-height: 50px;
+    @include media-breakpoint-up('m'){
+      min-height: 69px;
+    }
   }
   .uk-navbar-item{
     @extend .header__navItem;
   }
   .uk-navbar-nav{
     >li{
-      &.uk-active{
-        >a{
-          color: #CDBF83;
-        }
-      }
       >a{
         @extend .header__navItem;
         @extend .fz-13;
         font-family: $font-Roboto;
+        position: relative;
+        &:before{
+          content: '';
+          display: block;
+          position: absolute;
+          left: 15px;
+          right: calc(102% - 15px);
+          bottom: 20px;
+          height: 1px;
+          background-color: currentColor;
+          transition: .3s ease-in-out;
+          transition-property: right;
+        }
+        &:hover{
+          color: #CDBF83;
+          &:before{
+            right: 15px;
+          }
+        }
+      }
+      &.uk-active{
+        >a{
+          color: #CDBF83;
+          &:before{
+            right: 15px;
+          }
+        }
       }
     }
   }
@@ -25,8 +58,8 @@
     border-radius: 2px;
     width: 48px;
     height: 16px;
+    position: relative;
     @include media-breakpoint-up('m'){
-      position: relative;
       top: 20px;
       left: -15px;
     }
@@ -39,6 +72,14 @@
         &.uk-active{
           color: #CDBF83;
         }
+      }
+    }
+  }
+  &__menuNav{
+    >li{
+      >a{
+        text-transform: uppercase;
+        @extend .fz-13;
       }
     }
   }
