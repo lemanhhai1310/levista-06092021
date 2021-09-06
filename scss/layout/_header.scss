@@ -1,0 +1,45 @@
+.header{
+  background: #000000;
+  &__navItem{
+    min-height: 69px;
+  }
+  .uk-navbar-item{
+    @extend .header__navItem;
+  }
+  .uk-navbar-nav{
+    >li{
+      &.uk-active{
+        >a{
+          color: #CDBF83;
+        }
+      }
+      >a{
+        @extend .header__navItem;
+        @extend .fz-13;
+        font-family: $font-Roboto;
+      }
+    }
+  }
+  &__lang{
+    background: #333333;
+    border-radius: 2px;
+    width: 48px;
+    height: 16px;
+    @include media-breakpoint-up('m'){
+      position: relative;
+      top: 20px;
+      left: -15px;
+    }
+    .uk-position-center{
+      >*{
+        line-height: (12/10);
+        @extend .fz-10;
+        color: #FFFFFF;
+        font-family: $font-Roboto-Bold;
+        &.uk-active{
+          color: #CDBF83;
+        }
+      }
+    }
+  }
+}

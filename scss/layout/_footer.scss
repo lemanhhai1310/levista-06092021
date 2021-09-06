@@ -1,0 +1,88 @@
+.footer{
+  &__logo{
+
+  }
+  &__overlay{
+    background: rgba(0, 0, 0, 0.8);
+  }
+  &__section{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    @include media-breakpoint-up('m'){
+      padding-top: 30px;
+      padding-bottom: 0px;
+    }
+  }
+  &__title{
+    text-transform: uppercase;
+    font-family: $font-Roboto-Bold;
+    color: #ffffff;
+    @extend .fz-18;
+    margin-bottom: 20px;
+  }
+  &__list{
+    &__txt{
+      color: #828282;
+      @extend .fz-13;
+      line-height: (15/13);
+      span{
+        font-family: $font-Roboto-Bold;
+      }
+    }
+    >li{
+      &:nth-child(n+2){
+        @include media-breakpoint-up('m'){
+          margin-top: 24px !important;
+        }
+      }
+    }
+  }
+  &__form{
+    &__grid{
+      &.uk-grid-margin{
+        margin-top: 10px;
+        @include media-breakpoint-up('s'){
+          margin-top: 13px;
+        }
+      }
+    }
+    &__input{
+      @extend .fz-13;
+      color: #828282;
+      background: #4E4E4E;
+      border-color: #4E4E4E !important;
+    }
+    &__submit{
+      @include media-breakpoint-up('s'){
+        width: 95px;
+      }
+      background-color: #CDBF83 !important;
+      border-color: #CDBF83 !important;
+      text-transform: inherit;
+      color: #ffffff;
+      @extend .fz-13;
+      font-family: $font-Roboto-Bold;
+    }
+  }
+  &__bottom{
+    border-top: 1px solid #4B4B4B;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    @include media-breakpoint-up('s'){
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    &__txt1{
+      color: #FFFFFF;
+      @extend .fz-13;
+      line-height: (15/13);
+      font-family: $font-Roboto-Bold;
+    }
+    &__txt2{
+      @extend .fz-13;
+      line-height: (15/13);
+      color: #818181;
+      margin-left: 5px;
+    }
+  }
+}
