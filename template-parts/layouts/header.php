@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>BASE - <?= /** @var TYPE_NAME  */
+    <title>Levista - <?= /** @var TYPE_NAME  */
         (isset($data['title'])) ? $data['title'] : ''; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <!--CSS-->
@@ -33,12 +33,12 @@
         </div>
 
         <ul class="uk-nav-default uk-nav-parent-icon uk-margin header__menuNav" uk-nav>
-            <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
-            <li><a href="#">GIỚI THIỆU</a></li>
+            <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
+            <li><a href="gioithieu.php">GIỚI THIỆU</a></li>
             <li><a href="#">DỰ ÁN</a></li>
-            <li><a href="#">Privilege</a></li>
+            <li><a href="previlege.php">Privilege</a></li>
             <li><a href="#">TIN TỨC</a></li>
-            <li><a href="#">Cơ hội nghề nghiệp</a></li>
+            <li><a href="tuyendung.php">Cơ hội nghề nghiệp</a></li>
             <li><a href="#">Liên hệ</a></li>
         </ul>
 
@@ -70,12 +70,12 @@
                             </div>
                         </div>
                         <ul class="uk-navbar-nav">
-                            <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
-                            <li><a href="#">GIỚI THIỆU</a></li>
+                            <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
+                            <li><a href="gioithieu.php">GIỚI THIỆU</a></li>
                             <li><a href="#">DỰ ÁN</a></li>
-                            <li><a href="#">Privilege</a></li>
+                            <li><a href="previlege.php">Privilege</a></li>
                             <li><a href="#">TIN TỨC</a></li>
-                            <li><a href="#">Cơ hội nghề nghiệp</a></li>
+                            <li><a href="tuyendung.php">Cơ hội nghề nghiệp</a></li>
                             <li><a href="#">Liên hệ</a></li>
                         </ul>
                     </div>
