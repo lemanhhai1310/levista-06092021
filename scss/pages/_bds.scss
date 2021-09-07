@@ -1,0 +1,39 @@
+.bds{
+  &__boloc{
+    &__bg{
+      background: rgba(0, 0, 0, 0.6);
+    }
+    &__title{
+      color: #CDBF83;
+      line-height: (21/18);
+      @extend .fz-18;
+      font-family: $font-Roboto-Bold;
+    }
+
+    &__input{
+      color: #828282;
+      @extend .fz-13;
+      font-family: $font-Roboto-LightItalic;
+      @include media-breakpoint-up('s'){
+        min-width: 234px;
+      }
+    }
+    &__btn{
+      @extend .fz-13;
+      font-family: $font-Roboto-Bold;
+      background-color: #CDBF83;
+      border-color: #CDBF83;
+      text-transform: inherit;
+      color: #FFFFFF;
+    }
+    &__select{
+      @extend .fz-13;
+      text-transform: inherit;
+      color: #CDBF83;
+      font-family: $font-Roboto-Medium;
+      background-color: #fff;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  }
+}
