@@ -1,0 +1,209 @@
+.tuyendung{
+  &__tab{
+    margin-left: 0;
+    >li{
+      padding-left: 0;
+      >a{
+        text-align: center;
+        padding: 17px 10px;
+        @extend .fz-18;
+        color: #000;
+        font-family: $font-Roboto-Bold;
+        border: none;
+        text-transform: capitalize;
+        position: relative;
+        &:before{
+          content: '';
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 0;
+          $x:15px;
+          border-left: #{$x} solid transparent;
+          border-right: #{$x} solid transparent;
+          border-top: calc(#{$x} * 0.7) solid #CDBF83;
+          z-index: 100;
+          opacity: 0;
+        }
+      }
+      &.uk-active{
+        >a{
+          background-color: #CDBF83;
+          color: #f2f2f2;
+          &:before{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  &__box1{
+    &__img{
+      @include fluidx(122px,85px,height);
+    }
+    &__title{
+      line-height: (64/55);
+      @extend .fz-55;
+      color: #000;
+      font-family: $font-Roboto-Black;
+      >div{
+        color: #EC1C24;
+      }
+    }
+  }
+  &__box2{
+    @include media-breakpoint-up('m'){
+      background-image: none;
+    }
+  }
+  &__form{
+    &__card{
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 3px;
+    }
+    &__title{
+      color: #CDBF83;
+      line-height: (35/30);
+      @extend .fz-30;
+      font-family: $font-Roboto-Bold;
+      position: relative;
+      padding-bottom: 10px;
+      &:before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: inline-block;
+        width: 84px;
+        height: 3px;
+        background-color: #CDBF83;
+      }
+    }
+    &__label{
+      color: #828282;
+      @extend .fz-14;
+      font-family: $font-Roboto-Medium;
+    }
+    &__input{
+      color: #BDBDBD;
+      @extend .fz-13;
+      font-family: $font-Roboto-LightItalic;
+    }
+    &__btn{
+      text-transform: inherit;
+      background-color: #CDBF83;
+      border-color: #CDBF83;
+      @extend .fz-13;
+      font-family: $font-Roboto-Bold;
+      color: #FFFFFF;
+    }
+  }
+  &__content{
+    &__img{
+
+    }
+    &__title{
+      color: #000000;
+      line-height: (28/24);
+      font-family: $font-Roboto-Bold;
+      @extend .fz-24;
+      margin-bottom: 26px;
+    }
+
+    &__desc1{
+      line-height: (21/18);
+      @extend .fz-18;
+      color: #EC1C24;
+      font-family: $font-Roboto-Medium;
+      margin-bottom: 15px;
+    }
+    &__desc2{
+      @extend .fz-14;
+      line-height: (16/14);
+      color: #4f4f4f;
+      font-family: $font-Roboto-LightItalic;
+      margin-bottom: 15px;
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin: 0;
+        margin-top: 25px;
+      }
+      >*{
+        &:nth-child(n+2){
+          margin: 0;
+          margin-top: 15px !important;
+        }
+      }
+      &__title{
+        @extend .fz-14;
+        font-family: $font-Roboto-Bold;
+        line-height: (16/14);
+        color: #4f4f4f;
+      }
+      &__list{
+        @extend .fz-14;
+        line-height: (16/14);
+        color: #4f4f4f;
+        font-family: $font-Roboto;
+        >li{
+          &:before{
+            top: -2px;
+            background-size: 14%;
+          }
+          &:nth-child(n+2){
+            margin: 0;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+  &__tintd{
+    &__section{
+      @include media-breakpoint-up('m'){
+        $x:70px;
+        padding-top: #{$x};
+        padding-bottom: #{$x};
+      }
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 15px;
+        @include media-breakpoint-up('m'){
+          margin-top: 25px;
+        }
+      }
+    }
+    &__title{
+      color: #000000;
+      line-height: (28/24);
+      @extend .fz-24;
+      font-family: $font-Roboto-Bold;
+      margin: 0;
+      a{
+        color: #000;
+      }
+    }
+    &__desc{
+      color: #828282;
+      line-height: (21/18);
+      @extend .fz-18;
+    }
+    &__label{
+      @extend .fz-14;
+      font-family: $font-Roboto-Medium;
+      color: #FFFFFF;
+      text-transform: inherit;
+      background: #CDBF83;
+      border-radius: 2px;
+    }
+    &__txt{
+      @extend .fz-14;
+      line-height: (16/14);
+      color: #818181;
+    }
+  }
+}
