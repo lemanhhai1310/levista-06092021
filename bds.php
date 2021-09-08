@@ -1,7 +1,7 @@
 <?php $data["title"] = "BDS"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-position-relative uk-overflow-hidden uk-background-top-center tuyendung__box2 uk-background-cover" data-src="images/bg1.png" uk-img>
-    <div class="uk-position-top uk-visible@m">
+    <div class="uk-position-top uk-visible@m" hidden>
         <div class="uk-background-norepeat uk-background-cover" data-src="images/bg1.png" uk-img>
             <canvas width="1920" height="1013"></canvas>
         </div>

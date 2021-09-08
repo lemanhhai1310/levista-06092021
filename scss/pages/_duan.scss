@@ -135,4 +135,138 @@
       }
     }
   }
+  &__canho{
+    &__title{
+      color: #EC1C24;
+      line-height: (35/30);
+      @extend .fz-30;
+      font-family: $font-Roboto-Bold;
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 20px;
+        @include media-breakpoint-up('m'){
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+  &__tieukhu{
+    &__nav{
+      &__img{
+        width: 30px;
+        @include media-breakpoint-up('m'){
+          width: 41px;
+        }
+      }
+      margin-top: 30px;
+      position: relative;
+      padding-top: 20px;
+      &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #EC1C24;
+        width: 16%;
+        height: 3px;
+      }
+    }
+    &__title{
+      color: #000000;
+      line-height: (21/18);
+      @extend .fz-18;
+      font-family: $font-Roboto-Medium;
+      font-style: italic;
+      margin: 0;
+      margin-top: 10px;
+    }
+    &__list{
+      >li{
+        &:before{
+          top: -3px;
+        }
+        color: #000000;
+        line-height: (29/24);
+        @extend .fz-24;
+        font-family: $font-CormorantInfant-Italic;
+      }
+    }
+    &__item2{
+      background: rgba(229, 229, 229, 0.8);
+      @include media-breakpoint-up('m'){
+        background: rgba(229, 229, 229, 0.6);
+      }
+      &:nth-child(n+2){
+        margin-top: 15px;
+        @include media-breakpoint-up('m'){
+          margin-top: 32px;
+        }
+      }
+      &__w1{
+        @include media-breakpoint-up('m'){
+          width: 21%;
+        }
+      }
+      &__body{
+        padding: 15px 20px;
+        @include media-breakpoint-up('m'){
+          padding-top: 42px;
+          padding-left: 74px;
+        }
+      }
+      &__title1{
+        color: #000000;
+        line-height: (21/18);
+        @extend .fz-18;
+        font-family: $font-Roboto-Bold;
+        font-style: italic;
+        margin-top: 0;
+        margin-bottom: 15px;
+        @include media-breakpoint-up('m'){
+          margin-bottom: 20px;
+        }
+      }
+      &__list{
+        margin: 0;
+        >li{
+          &:before{
+            top: -1px;
+            background-size: 14%;
+          }
+          margin: 0 !important;
+          @extend .fz-18;
+          color: #000;
+        }
+      }
+      &__title{
+        color: #CDBF83;
+        line-height: (28/24);
+        @extend .fz-24;
+        margin-bottom: 15px;
+        @include media-breakpoint-up('m'){
+          margin-bottom: 23px;
+        }
+        span{
+          font-family: $font-Roboto-Bold;
+        }
+      }
+    }
+    &__item1{
+      &:nth-child(n+2){
+        margin-top: 25px;
+        @include media-breakpoint-up('m'){
+          margin-top: 40px;
+        }
+      }
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 30px;
+        @include media-breakpoint-up('m'){
+          margin-top: 50px;
+        }
+      }
+    }
+  }
 }

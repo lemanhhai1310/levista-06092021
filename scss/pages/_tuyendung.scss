@@ -15,6 +15,12 @@
             border-top: 1px solid rgba(#818181,0.6);
           }
         }
+        &.uk-active{
+          >a{
+            color: #CDBF83;
+            font-family: $font-Roboto-Medium;
+          }
+        }
         >a{
           padding: 15px 15px;
           color: #828282;
@@ -81,7 +87,10 @@
   }
   &__box2{
     @include media-breakpoint-up('m'){
-      background-image: none;
+      //background-image: none;
+
+      background-repeat: repeat-y;
+      background-size: contain;
     }
   }
   &__form{
