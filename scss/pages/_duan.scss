@@ -3,7 +3,7 @@
     &:nth-child(n+2){
       margin-top: 40px;
       @include media-breakpoint-up('m'){
-        margin-top: 80px;
+        margin-top: 100px;
       }
     }
   }
@@ -82,6 +82,56 @@
         line-height: (28/24);
         @extend .fz-24;
         font-family: $font-Roboto-Bold;
+      }
+    }
+  }
+  &__tienich{
+    &__dotnav{
+      >li{
+        &.uk-active{
+          >a{
+            background-color: #CDBF83;
+            border-color: #CDBF83;
+          }
+        }
+        >a{
+          background-color: #C4C4C4;
+          border-color: #C4C4C4;
+          &:hover{
+            background-color: #CDBF83;
+            border-color: #CDBF83;
+          }
+        }
+      }
+    }
+    &__title{
+      display: inline-block;
+      text-transform: uppercase;
+      $x:500px;
+      background-color: #CDBF83;
+      padding: 5px 25px;
+      padding-left: 0;
+      color: #FFFFFF;
+      border-radius: 0 #{$x} #{$x} 0;
+      @extend .fz-36;
+      font-family: $font-CormorantInfant-Bold;
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 0;
+        bottom: 0;
+        width: 100vw;
+        background-color: #CDBF83;
+      }
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 30px;
+        @include media-breakpoint-up('m'){
+          margin-top: 50px;
+        }
       }
     }
   }

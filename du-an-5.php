@@ -64,7 +64,7 @@
                 <ul class="uk-child-width-expand tuyendung__tab uk-grid-match uk-grid-collapse uk-grid" uk-tab uk-scrollspy-nav="closest: li; scroll: true; offset: 70">
                     <li class="uk-active"><a href="#thongtinduan">Thông tin dự án</a></li>
                     <li><a href="#chinhsachbanhang">Chính sách bán hàng</a></li>
-                    <li><a href="#">Tiện ích phân khu</a></li>
+                    <li><a href="#tienichphankhu">Tiện ích phân khu</a></li>
                     <li>
                         <a href="#">Tiểu khu <span uk-icon="icon: chevron-down; ratio: 0.8"></span></a>
                         <div uk-dropdown="mode: click">
@@ -185,6 +185,93 @@
                 </div>
             </div>
             <!--/Chinh sach ban hang-->
+
+            <!--Tien ich phan khu-->
+            <div class="duan__item uk-position-relative" id="tienichphankhu">
+                <div class="uk-container uk-margin-medium">
+                    <div class="uk-margin">
+                        <div class="uk-grid-small uk-flex-middle uk-child-width-auto" uk-grid>
+                            <div>
+                                <img class="tuyendung__box1__img" src="images/Group2.png" alt="">
+                            </div>
+                            <div>
+                                <div class="tuyendung__box1__title">
+                                    <div>Tiện Ích</div>
+                                    Phân Khu
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="duan__tienich__item">
+                        <div class="uk-container uk-margin-medium">
+                            <h3 class="uk-h3 duan__tienich__title">Tiện ích sức khỏe</h3>
+                        </div>
+                        <div uk-slideshow="animation: fade;ratio: 1280:451">
+
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" style="background: rgba(229, 229, 229, 0.6);">
+
+                                <ul class="uk-slideshow-items">
+                                    <li>
+                                        <img src="images/du-an5/tienich/Frame34.png" alt="" uk-cover>
+                                    </li>
+                                    <li>
+                                        <img src="images/photo.jpg" alt="" uk-cover>
+                                    </li>
+                                    <li>
+                                        <img src="images/dark.jpg" alt="" uk-cover>
+                                    </li>
+                                    <li>
+                                        <img src="images/light.jpg" alt="" uk-cover>
+                                    </li>
+                                </ul>
+
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+                            </div>
+
+                            <ul class="uk-slideshow-nav uk-dotnav duan__tienich__dotnav uk-flex-center uk-margin"></ul>
+
+                        </div>
+                    </div>
+
+                    <div class="duan__tienich__item">
+                        <div class="uk-container uk-margin-medium">
+                            <h3 class="uk-h3 duan__tienich__title">Tiện ích thư giãn và vui chơi giải trí</h3>
+                        </div>
+                        <div uk-slideshow="animation: fade;ratio: 1280:451">
+
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" style="background: rgba(229, 229, 229, 0.6);">
+
+                                <ul class="uk-slideshow-items">
+                                    <li>
+                                        <img src="images/du-an5/tienich/TIGT-OSEN.png" alt="" uk-cover>
+                                    </li>
+                                    <li>
+                                        <img src="images/photo.jpg" alt="" uk-cover>
+                                    </li>
+                                    <li>
+                                        <img src="images/dark.jpg" alt="" uk-cover>
+                                    </li>
+                                    <li>
+                                        <img src="images/light.jpg" alt="" uk-cover>
+                                    </li>
+                                </ul>
+
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+                            </div>
+
+                            <ul class="uk-slideshow-nav uk-dotnav duan__tienich__dotnav uk-flex-center uk-margin"></ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Tien ich phan khu-->
         </div>
         <!--/Content-->
 
