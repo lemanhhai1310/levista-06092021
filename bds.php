@@ -57,6 +57,165 @@
         <!--Banner-->
         <div><img class="uk-width-1-1" src="images/bds/MaskGroup.png" alt=""></div>
         <!--/Banner-->
+
+        <!--Content-->
+        <div class="uk-section-small bds__content__section">
+            <div class="uk-container">
+                <h2 class="uk-h2 bds__content__title bds__content__title--margin">BẠN CẦN GỢI Ý ĐẦU TƯ?</h2>
+                <div class="bds__content__box">
+                    <div class="uk-child-width-auto uk-grid-10 uk-grid-15-m" uk-grid>
+                        <div>
+                            <div uk-form-custom="target: > * > span:first-child">
+                                <select>
+                                    <option value="">thị trường</option>
+                                    <option value="1">Option 01</option>
+                                    <option value="2">Option 02</option>
+                                    <option value="3">Option 03</option>
+                                    <option value="4">Option 04</option>
+                                </select>
+                                <button class="uk-button bds__content__selectbtn uk-button-default uk-text-capitalize uk-button-small uk-position-relative" type="button" tabindex="-1">
+                                    <span></span>
+                                    <span class="uk-position-center-right" style="right: 5px;" uk-icon="icon: chevron-down"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div uk-form-custom="target: > * > span:first-child">
+                                <select>
+                                    <option value="">mô hình</option>
+                                    <option value="1">Option 01</option>
+                                    <option value="2">Option 02</option>
+                                    <option value="3">Option 03</option>
+                                    <option value="4">Option 04</option>
+                                </select>
+                                <button class="uk-button bds__content__selectbtn uk-button-default uk-text-capitalize uk-button-small uk-position-relative" type="button" tabindex="-1">
+                                    <span></span>
+                                    <span class="uk-position-center-right" style="right: 5px;" uk-icon="icon: chevron-down"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div uk-form-custom="target: > * > span:first-child">
+                                <select>
+                                    <option value="">dự án</option>
+                                    <option value="1">Option 01</option>
+                                    <option value="2">Option 02</option>
+                                    <option value="3">Option 03</option>
+                                    <option value="4">Option 04</option>
+                                </select>
+                                <button class="uk-button bds__content__selectbtn uk-button-default uk-text-capitalize uk-button-small uk-position-relative" type="button" tabindex="-1">
+                                    <span></span>
+                                    <span class="uk-position-center-right" style="right: 5px;" uk-icon="icon: chevron-down"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div uk-form-custom="target: > * > span:first-child">
+                                <select>
+                                    <option value="">mục đích đầu tư</option>
+                                    <option value="1">Option 01</option>
+                                    <option value="2">Option 02</option>
+                                    <option value="3">Option 03</option>
+                                    <option value="4">Option 04</option>
+                                </select>
+                                <button class="uk-button bds__content__selectbtn uk-button-default uk-text-capitalize uk-button-small uk-position-relative" type="button" tabindex="-1">
+                                    <span></span>
+                                    <span class="uk-position-center-right" style="right: 5px;" uk-icon="icon: chevron-down"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="uk-button bds__content__btnSearch uk-button-small uk-button-default">Tìm kiếm</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bds__content__item">
+                        <div class="uk-position-relative uk-text-center bds__content__header">
+                            <h2 class="uk-h2 bds__content__header__title">Có thể bạn cần tìm</h2>
+                        </div>
+                        <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-21-m" uk-grid>
+                            <?php
+                            $data = array(
+                                array(
+                                    'src' => 'images/bds/image18.png',
+                                    'title' => 'CHUNG CƯ CAO CẤP',
+                                ),
+                                array(
+                                    'src' => 'images/bds/image24.png',
+                                    'title' => 'CĂN HỘ CAO CẤP',
+                                ),
+                                array(
+                                    'src' => 'images/bds/image13.png',
+                                    'title' => 'BIỆT THỰ NGHỈ DƯỠNG',
+                                ),
+                                array(
+                                    'src' => 'images/bds/image12.png',
+                                    'title' => 'NHÀ PHỐ THƯƠNG MạI',
+                                ),
+                            );
+                            foreach ($data as $k=>$v): ?>
+                            <div>
+                                <div class="uk-card uk-card-default uk-text-center bds__content__card">
+                                    <div class="uk-cover-container">
+                                        <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                        <canvas width="768" height="540"></canvas>
+                                    </div>
+                                    <div class="uk-card-body bds__content__card__body">
+                                        <h3 class="uk-h3 bds__content__card__title"><a href=""><?= $v['title'] ?></a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                    <div class="bds__content__item">
+                        <div class="uk-position-relative uk-text-center bds__content__header">
+                            <h2 class="uk-h2 bds__content__header__title">dự án tiêu biểu</h2>
+                        </div>
+                        <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-21-m" uk-grid>
+                            <?php
+                            $data = array(
+                                array(
+                                    'src' => 'images/bds/image18.png',
+                                    'title' => 'Swan Lake Onsen Ecopark',
+                                    'tag' => 'căn hộ',
+                                ),
+                                array(
+                                    'src' => 'images/bds/image24.png',
+                                    'title' => 'The Landmark Swanlake Residence',
+                                    'tag' => 'căn hộ',
+                                ),
+                                array(
+                                    'src' => 'images/bds/image13.png',
+                                    'title' => 'Ecopark Grand - The Island',
+                                    'tag' => 'BIỆT THỰ',
+                                ),
+                                array(
+                                    'src' => 'images/bds/image12.png',
+                                    'title' => 'malibu hội an',
+                                    'tag' => 'căn hộ',
+                                ),
+                            );
+                            foreach ($data as $k=>$v): ?>
+                                <div>
+                                    <div class="uk-card uk-card-default uk-text-center bds__content__card">
+                                        <div class="uk-cover-container">
+                                            <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                            <canvas width="768" height="540"></canvas>
+                                        </div>
+                                        <div class="uk-card-body bds__content__card__body">
+                                            <h3 class="uk-h3 bds__content__card__title"><a href=""><?= $v['title'] ?></a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Content-->
     </div>
 </div>
 <?php require "template-parts/layouts/footer.php"; ?>

@@ -62,6 +62,10 @@
       color: #ffffff;
       @extend .fz-13;
       font-family: $font-Roboto-Bold;
+      &:hover{
+        background-color: #EC1C24 !important;
+        border-color: #EC1C24 !important;
+      }
     }
   }
   &__bottom{

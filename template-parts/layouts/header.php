@@ -63,9 +63,9 @@
                     </div>
                     <div class="uk-visible@m">
                         <div class="uk-text-right">
-                            <div class="uk-display-inline-block header__lang">
+                            <div class="uk-display-inline-block header__lang uk-position-z-index">
                                 <div class="uk-position-center" style="top: calc(50% - 3px)">
-                                    <a href="" class="uk-active">VN</a> <span>/</span> <a href="">EN</a>
+                                    <a href="#vn" class="uk-active">VN</a> <span>/</span> <a href="#en">EN</a>
                                 </div>
                             </div>
                         </div>
