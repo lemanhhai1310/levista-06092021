@@ -20,16 +20,16 @@
     <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
 
 </div>
-<div class="uk-background-cover uk-background-bottom-center uk-background-norepeat" data-src="images/bg1.png" uk-img>
+<div uk-sticky="offset: 93;media: @m" class="uk-background-cover uk-background-bottom-center uk-background-norepeat" data-src="images/bg1.png" uk-img>
     <div class="uk-container uk-padding-remove">
-        <ul class="uk-child-width-expand tuyendung__tab uk-grid-match uk-grid-collapse uk-grid" uk-tab>
-            <li class="uk-active"><a href="#">Tin mới Nhất</a></li>
-            <li><a href="#">tin tức tuyển dụng</a></li>
-            <li><a href="#">tin tức đào tạo</a></li>
+        <ul class="uk-child-width-expand tuyendung__tab uk-grid-match uk-grid-collapse uk-grid" uk-tab uk-scrollspy-nav="closest: li; scroll: true; offset: 42">
+            <li class="uk-active"><a href="#tinmoinhat">Tin mới Nhất</a></li>
+            <li><a href="#tintuyendung">tin tức tuyển dụng</a></li>
+            <li><a href="#tindaotao">tin tức đào tạo</a></li>
         </ul>
     </div>
 </div>
-<div class="uk-position-relative uk-overflow-hidden uk-background-top-center uk-section-small tuyendung__box2 uk-background-cover" data-src="images/bg1.png" uk-img>
+<div id="tinmoinhat" class="uk-position-relative uk-overflow-hidden uk-background-top-center uk-section-small tuyendung__box2 uk-background-cover" data-src="images/bg1.png" uk-img>
     <div class="uk-position-top uk-visible@m">
         <div class="uk-background-norepeat uk-background-cover" data-src="images/bg1.png" uk-img>
             <canvas width="1920" height="1013"></canvas>
@@ -146,7 +146,7 @@
 </div>
 
 <!--Tin tuc tuyen dung-->
-<div class="uk-background-norepeat uk-background-cover uk-section-small tuyendung__tintd__section" data-src="images/bg1.png" uk-img>
+<div id="tintuyendung" class="uk-background-norepeat uk-background-cover uk-section-small tuyendung__tintd__section" data-src="images/bg1.png" uk-img>
     <div class="uk-container">
         <div class="uk-margin-large">
             <div class="uk-grid-small uk-flex-middle uk-child-width-auto" uk-grid>
@@ -224,7 +224,7 @@
 <!--/Tin tuc tuyen dung-->
 
 <!--Tin tuc dao tao-->
-<div class="uk-background-norepeat uk-background-cover uk-section-small tuyendung__tintd__section" data-src="images/bg1.png" uk-img>
+<div id="tindaotao" class="uk-background-norepeat uk-background-cover uk-section-small tuyendung__tintd__section" data-src="images/bg1.png" uk-img>
     <div class="uk-container">
         <div class="uk-margin-large">
             <div class="uk-grid-small uk-flex-middle uk-child-width-auto" uk-grid>

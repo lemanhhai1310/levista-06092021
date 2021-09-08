@@ -162,7 +162,7 @@
                                         <canvas width="768" height="540"></canvas>
                                     </div>
                                     <div class="uk-card-body bds__content__card__body">
-                                        <h3 class="uk-h3 bds__content__card__title"><a href=""><?= $v['title'] ?></a></h3>
+                                        <h3 class="uk-h3 bds__content__card__title"><a href="du-an-5.php"><?= $v['title'] ?></a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +206,7 @@
                                             <span class="uk-label uk-border-pill uk-position-top-right bds__content__card__tag"><?= $v['tag'] ?></span>
                                         </div>
                                         <div class="uk-card-body bds__content__card__body">
-                                            <h3 class="uk-h3 bds__content__card__title"><a href=""><?= $v['title'] ?></a></h3>
+                                            <h3 class="uk-h3 bds__content__card__title"><a href="du-an-5.php"><?= $v['title'] ?></a></h3>
                                         </div>
                                     </div>
                                 </div>

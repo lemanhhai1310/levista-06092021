@@ -1,6 +1,32 @@
 .tuyendung{
   &__tab{
     margin-left: 0;
+    &:before{
+      border-bottom: none;
+    }
+    .uk-dropdown{
+      padding: 0;
+      //background: rgba(234, 234, 234, 0.6);
+    }
+    .uk-dropdown-nav{
+      >li{
+        &:nth-child(n+2){
+          >a{
+            border-top: 1px solid rgba(#818181,0.6);
+          }
+        }
+        >a{
+          padding: 15px 15px;
+          color: #828282;
+          @extend .fz-18;
+          justify-content: center;
+          &:hover{
+            color: #CDBF83;
+            font-family: $font-Roboto-Medium;
+          }
+        }
+      }
+    }
     >li{
       padding-left: 0;
       >a{

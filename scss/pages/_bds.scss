@@ -43,8 +43,10 @@
   }
   &__content{
     &__section{
-      padding-top: 21px;
-      padding-bottom: 80px;
+      @include media-breakpoint-up('m'){
+        padding-top: 21px;
+        padding-bottom: 80px;
+      }
     }
     &__title{
       font-family: $font-Roboto-Bold;
@@ -110,12 +112,19 @@
     }
     &__item{
       &:nth-child(n+2){
-        margin-top: 80px;
+        margin-top: 40px;
+        @include media-breakpoint-up('m'){
+          margin-top: 80px;
+        }
       }
     }
     &__header{
-      padding-top: 52px;
-      margin-bottom: 27px;
+      padding-top: 32px;
+      margin-bottom: 20px;
+      @include media-breakpoint-up('m'){
+        padding-top: 52px;
+        margin-bottom: 27px;
+      }
       &:before{
         content: "";
         position: absolute;
@@ -123,7 +132,10 @@
         left: 50%;
         transform: translateX(-50%);
         width: 27%;
-        height: 20px;
+        height: 10px;
+        @include media-breakpoint-up('m'){
+          height: 20px;
+        }
         background: #EC1C24;
       }
       &__title{

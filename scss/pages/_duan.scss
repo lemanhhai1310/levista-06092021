@@ -1,0 +1,49 @@
+.duan{
+  &__content{
+
+  }
+  &__txtBrand{
+    font-family: $font-CormorantInfant-Italic;
+    color: #EC1C24;
+    line-height: (44/36);
+    @extend .fz-36;
+  }
+  &__overlay{
+    @include media-breakpoint-up('m'){
+      width: 66%;
+    }
+  }
+  &__containerExpandLeft{
+    @include media-breakpoint-up('m'){
+      padding-left: 0;
+      max-width: calc(50% + 40px + (1200px / 2) - 40px);
+    }
+  }
+  &__thongtin{
+    &__txt1{
+      color: #000000;
+      line-height: (21/18);
+      @extend .fz-18;
+      font-family: $font-Roboto-Medium;
+      font-style: italic;
+      margin-bottom: 30px;
+      @include media-breakpoint-up('m'){
+        margin-bottom: 50px;
+      }
+      span{
+        color: #EC1C24;
+      }
+    }
+    &__list{
+      >li{
+        &:before{
+          top: -2px;
+          background-size: 14%;
+        }
+        color: #000000;
+        line-height: (21/18);
+        @extend .fz-18;
+      }
+    }
+  }
+}
