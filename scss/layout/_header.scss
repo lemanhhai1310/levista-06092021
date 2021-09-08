@@ -26,6 +26,11 @@
         >a{
           @include media-breakpoint-up('m'){
             padding-right: 0;
+            &:hover{
+              &:before{
+                right: 0;
+              }
+            }
           }
         }
       }

@@ -137,6 +137,20 @@
       &__body{
         padding: 20px 20px;
       }
+      &__tag{
+        width: 100px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 14px;
+        color: #FFFFFF;
+        font-family: $font-Roboto-Bold;
+        @extend .fz-13;
+        background: #CDBF83;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
       &__title{
         @extend .fz-18;
         line-height: (21/18);

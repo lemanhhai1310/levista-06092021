@@ -134,7 +134,7 @@
                         <div class="uk-position-relative uk-text-center bds__content__header">
                             <h2 class="uk-h2 bds__content__header__title">Có thể bạn cần tìm</h2>
                         </div>
-                        <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-21-m" uk-grid>
+                        <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-20-m" uk-grid>
                             <?php
                             $data = array(
                                 array(
@@ -173,26 +173,26 @@
                         <div class="uk-position-relative uk-text-center bds__content__header">
                             <h2 class="uk-h2 bds__content__header__title">dự án tiêu biểu</h2>
                         </div>
-                        <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-21-m" uk-grid>
+                        <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-20-m" uk-grid>
                             <?php
                             $data = array(
                                 array(
-                                    'src' => 'images/bds/image18.png',
+                                    'src' => 'images/bds/MaskGroup1.png',
                                     'title' => 'Swan Lake Onsen Ecopark',
                                     'tag' => 'căn hộ',
                                 ),
                                 array(
-                                    'src' => 'images/bds/image24.png',
+                                    'src' => 'images/bds/MaskGroup2.png',
                                     'title' => 'The Landmark Swanlake Residence',
                                     'tag' => 'căn hộ',
                                 ),
                                 array(
-                                    'src' => 'images/bds/image13.png',
+                                    'src' => 'images/bds/MaskGroup3.png',
                                     'title' => 'Ecopark Grand - The Island',
                                     'tag' => 'BIỆT THỰ',
                                 ),
                                 array(
-                                    'src' => 'images/bds/image12.png',
+                                    'src' => 'images/bds/MaskGroup4.png',
                                     'title' => 'malibu hội an',
                                     'tag' => 'căn hộ',
                                 ),
@@ -200,9 +200,10 @@
                             foreach ($data as $k=>$v): ?>
                                 <div>
                                     <div class="uk-card uk-card-default uk-text-center bds__content__card">
-                                        <div class="uk-cover-container">
+                                        <div class="uk-cover-container uk-background-muted">
                                             <img src="<?= $v['src'] ?>" alt="" uk-cover>
                                             <canvas width="768" height="540"></canvas>
+                                            <span class="uk-label uk-border-pill uk-position-top-right bds__content__card__tag"><?= $v['tag'] ?></span>
                                         </div>
                                         <div class="uk-card-body bds__content__card__body">
                                             <h3 class="uk-h3 bds__content__card__title"><a href=""><?= $v['title'] ?></a></h3>
