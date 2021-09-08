@@ -1,4 +1,12 @@
 .duan{
+  &__item{
+    &:nth-child(n+2){
+      margin-top: 40px;
+      @include media-breakpoint-up('m'){
+        margin-top: 80px;
+      }
+    }
+  }
   &__content{
 
   }
@@ -43,6 +51,37 @@
         color: #000000;
         line-height: (21/18);
         @extend .fz-18;
+      }
+    }
+  }
+  &__chinhsach{
+    &__txt{
+      color: #CDBF83;
+      line-height: (145/120);
+      @extend .fz-120;
+      font-family: $font-CormorantInfant-Bold;
+      sup{
+        line-height: (48/40);
+        @extend .fz-40;
+      }
+    }
+    &__desc{
+      color: #000000;
+      line-height: (21/18);
+      @extend .fz-18;
+      span{
+        font-family: $font-Roboto-Bold;
+      }
+    }
+    &__list{
+      >li{
+
+      }
+      &__txt{
+        color: #000000;
+        line-height: (28/24);
+        @extend .fz-24;
+        font-family: $font-Roboto-Bold;
       }
     }
   }

@@ -61,9 +61,9 @@
         <!---->
         <div uk-sticky="offset: 93;media: @m" class="uk-background-cover uk-background-bottom-center uk-background-norepeat" data-src="images/bg1.png" uk-img>
             <div class="uk-container uk-padding-remove">
-                <ul class="uk-child-width-expand tuyendung__tab uk-grid-match uk-grid-collapse uk-grid" uk-tab uk-scrollspy-nav="closest: li; scroll: true; offset: 42">
-                    <li class="uk-active"><a href="#">Thông tin dự án</a></li>
-                    <li><a href="#">Chính sách bán hàng</a></li>
+                <ul class="uk-child-width-expand tuyendung__tab uk-grid-match uk-grid-collapse uk-grid" uk-tab uk-scrollspy-nav="closest: li; scroll: true; offset: 70">
+                    <li class="uk-active"><a href="#thongtinduan">Thông tin dự án</a></li>
+                    <li><a href="#chinhsachbanhang">Chính sách bán hàng</a></li>
                     <li><a href="#">Tiện ích phân khu</a></li>
                     <li>
                         <a href="#">Tiểu khu <span uk-icon="icon: chevron-down; ratio: 0.8"></span></a>
@@ -81,7 +81,9 @@
 
         <!--Content-->
         <div class="uk-section-small duan__content" uk-height-viewport>
-            <div class="uk-position-relative">
+
+            <!--Thong tin du an-->
+            <div class="uk-position-relative duan__item" id="thongtinduan">
                 <div class="uk-position-top-left duan__overlay" style="background: rgba(229, 229, 229, 0.6);">
                     <canvas width="2529" height="1611"></canvas>
                 </div>
@@ -130,6 +132,59 @@
                     </div>
                 </div>
             </div>
+            <!--/Thong tin du an-->
+
+            <!--Chinh sach ban hang-->
+            <div class="duan__item uk-position-relative" id="chinhsachbanhang">
+                <div class="uk-container">
+                    <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                        <div class="uk-width-auto">
+                            <img class="tuyendung__box1__img" src="images/Group2.png" alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="tuyendung__box1__title">
+                                <div>Chính Sách</div>
+                                Bán Hàng
+                            </div>
+                            <ul class="uk-list uk-list-bullet">
+                                <li>
+                                    <span class="duan__chinhsach__list__txt">Chính sách hỗ trợ tài chính</span>
+                                    <div class="uk-child-width-1-3@m uk-margin" uk-grid>
+                                        <div>
+                                            <div class="uk-text-center">
+                                                <div class="duan__chinhsach__txt">80%</div>
+                                                <div class="duan__chinhsach__desc">Hỗ trợ vay vốn lên tới <span>80%</span> giá trị căn hộ</div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-text-center">
+                                                <div class="duan__chinhsach__txt">0%</div>
+                                                <div class="duan__chinhsach__desc">Hỗ trợ lãi suất <span>0%</span> trong <span>24 tháng</span></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-text-center">
+                                                <div class="duan__chinhsach__txt">24 <sup>Tháng</sup></div>
+                                                <div class="duan__chinhsach__desc">Hỗ trợ trả nợ trước hạn và ân hạn nợ gốc <span>24 tháng</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="duan__chinhsach__list__txt">Chính sách chiết khấu không vay</span>
+                                </li>
+                                <li>
+                                    <span class="duan__chinhsach__list__txt">Chiết khấu không vay lên tới 2%</span>
+                                </li>
+                                <li>
+                                    <span class="duan__chinhsach__list__txt">Chính sách chiết khấu thanh toán sớm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Chinh sach ban hang-->
         </div>
         <!--/Content-->
 
