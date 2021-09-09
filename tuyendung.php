@@ -20,7 +20,7 @@
     <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
 
 </div>
-<div uk-sticky="offset: 93;media: @m" class="uk-background-cover uk-background-bottom-center uk-background-norepeat" data-src="images/bg1.png" uk-img>
+<div uk-sticky="offset: 93" class="duan__scrollspy-nav uk-background-cover uk-background-bottom-center uk-background-norepeat" data-src="images/bg1.png" uk-img>
     <div class="uk-container uk-padding-remove">
         <ul class="uk-child-width-expand tuyendung__tab uk-grid-match uk-grid-collapse uk-grid" uk-tab uk-scrollspy-nav="closest: li; scroll: true; offset: 42">
             <li class="uk-active"><a href="#tinmoinhat">Tin mới Nhất</a></li>

@@ -1,4 +1,41 @@
 .duan{
+  &__sodo{
+    &__tab{
+      margin-top: 30px !important;
+      @include media-breakpoint-up('m'){
+        margin-top: 50px !important;
+      }
+    }
+    &__btn{
+      background-color: #EFEFEF;
+      border-color: #EFEFEF;
+
+      color: #BDBDBD;
+      text-transform: inherit;
+      @extend .fz-18;
+      @include media-breakpoint-up('m'){
+        line-height: 48px;
+      }
+      &:hover{
+        background-color: #CDBF83;
+        border-color: #CDBF83;
+        color: #FFFFFF;
+      }
+      .uk-active> &{
+        background-color: #CDBF83;
+        border-color: #CDBF83;
+        color: #FFFFFF;
+      }
+    }
+  }
+  &__scrollspy-nav{
+    &.uk-sticky-fixed{
+      top: 50px !important;
+      @include media-breakpoint-up('m'){
+        top: 93px !important;
+      }
+    }
+  }
   &__item{
     &:nth-child(n+2){
       margin-top: 40px;

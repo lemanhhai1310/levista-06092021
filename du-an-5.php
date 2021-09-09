@@ -58,8 +58,8 @@
         <div><img class="uk-width-1-1" src="images/du-an5/MaskGroup.png" alt=""></div>
         <!--/Banner-->
 
-        <!---->
-        <div uk-sticky="offset: 93;media: @m" class="uk-background-cover uk-background-bottom-center uk-background-norepeat" data-src="images/bg1.png" uk-img>
+        <!--scrollspy-nav-->
+        <div uk-sticky="offset: 93;" class="duan__scrollspy-nav uk-background-cover uk-background-bottom-center uk-background-norepeat" data-src="images/bg1.png" uk-img>
             <div class="uk-container uk-padding-remove">
                 <ul class="uk-child-width-expand tuyendung__tab uk-grid-match uk-grid-collapse uk-grid" uk-tab uk-scrollspy-nav="closest: li; scroll: true; offset: 100">
                     <li class="uk-active"><a href="#thongtinduan">Thông tin dự án</a></li>
@@ -77,7 +77,7 @@
                 </ul>
             </div>
         </div>
-        <!--/-->
+        <!--/scrollspy-nav-->
 
         <!--Content-->
         <div class="uk-section-small duan__content">
