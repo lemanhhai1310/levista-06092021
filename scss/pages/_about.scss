@@ -1,0 +1,9 @@
+.section{
+  height: 100% !important;
+  &:last-child{
+    >*{
+      height: 100% !important;
+      vertical-align: bottom;
+    }
+  }
+}

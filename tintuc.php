@@ -1,4 +1,5 @@
 <?php $data["title"] = "Tin tuc"; ?>
+<?php $fullPage = false; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-section">
     <div class="uk-container">

@@ -1,4 +1,5 @@
 <?php $data["title"] = "PREVILEGE"; ?>
+<?php $fullPage = false; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-position-relative previlege">
     <img class="uk-width-1-1 uk-visible@m" src="images/privileges.png" alt="">

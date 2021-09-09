@@ -1,4 +1,5 @@
 <?php $data["title"] = "DỰ ÁN 4.1"; ?>
+<?php $fullPage = false; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-position-relative uk-overflow-hidden uk-background-top-center tuyendung__box2 uk-background-cover" data-src="images/bg1.png" uk-img>
     <div class="uk-position-top uk-visible@m" hidden>

@@ -1,4 +1,5 @@
 <?php $data["title"] = "GIỚI THIỆU"; ?>
+<?php $fullPage = false; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-section">
     <div class="uk-container uk-container-small">

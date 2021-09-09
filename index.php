@@ -1,4 +1,5 @@
 <?php $data["title"] = "Trang chủ"; ?>
+<?php $fullPage = false; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: false;animation: scale; autoplay: true;">
 
