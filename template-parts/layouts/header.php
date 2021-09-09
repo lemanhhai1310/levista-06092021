@@ -37,9 +37,9 @@
             <li><a href="gioithieu.php">GIỚI THIỆU</a></li>
             <li><a href="bds.php">DỰ ÁN</a></li>
             <li><a href="previlege.php">Privilege</a></li>
-            <li><a href="#">TIN TỨC</a></li>
+            <li><a href="tintuc.php">TIN TỨC</a></li>
             <li><a href="tuyendung.php">Cơ hội nghề nghiệp</a></li>
-            <li><a href="#">Liên hệ</a></li>
+            <li><a href="lienhe.php">Liên hệ</a></li>
         </ul>
 
     </div>
@@ -74,9 +74,9 @@
                             <li><a href="gioithieu.php">GIỚI THIỆU</a></li>
                             <li><a href="bds.php">DỰ ÁN</a></li>
                             <li><a href="previlege.php">Privilege</a></li>
-                            <li><a href="#">TIN TỨC</a></li>
+                            <li><a href="tintuc.php">TIN TỨC</a></li>
                             <li><a href="tuyendung.php">Cơ hội nghề nghiệp</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="lienhe.php">Liên hệ</a></li>
                         </ul>
                     </div>
 

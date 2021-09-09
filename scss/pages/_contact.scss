@@ -1,0 +1,55 @@
+.lienhe{
+  &__title{
+    @extend .fz-20;
+    line-height: (24/20);
+    font-family: $font-Roboto-Bold;
+    color: #000;
+  }
+  &__box1{
+    border-left: 2px solid #CC3333;
+    padding-left: 15px;
+    &__w1{
+      width: 68px;
+      display: inline-block;
+    }
+    >li{
+      margin: 0 !important;
+      span{
+        @extend .fz-14;
+        font-family: $font-Roboto;
+        color: #000;
+      }
+    }
+  }
+  &__boxForm{
+    &__input{
+      @extend .fz-14;
+      font-family: $font-Roboto-LightItalic;
+      background: #999999;
+      border-color: #999999;
+      color: #000;
+      &::placeholder{
+        color: #000;
+      }
+    }
+  }
+}
+.home{
+  &__block02{
+    &__txt1{
+      @extend .fz-30;
+      line-height: 1;
+      font-family: $font-Roboto-Bold;
+      color: #CC3333;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+    &__txt2{
+      @extend .fz-20;
+      line-height: 1;
+      color: #000;
+      font-family: $font-Roboto-Bold;
+      text-transform: uppercase;
+    }
+  }
+}
