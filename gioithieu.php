@@ -36,7 +36,53 @@
                 </div>
             </div>
         </div>
-        <div class="section">Some section</div>
+        <div class="section">
+            <div class="uk-flex uk-flex-column uk-height-1-1">
+                <div class="uk-flex-auto uk-flex uk-flex-middle uk-flex-center">
+                    <div class="uk-section-small">
+                        <div class="uk-container">
+                            <div class="uk-child-width-1-2@m uk-grid-135-m" uk-grid>
+                                <div>
+                                    <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                                        <div>
+                                            <img class="tuyendung__box1__img" src="images/Group2.png" alt="">
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="tuyendung__box1__title uk-margin-medium">
+                                                <div>Tầm</div>
+                                                Nhìn
+                                            </div>
+                                            <div class="about__thongtin__box">
+                                                <div class="about__thongtin__txt2">Levista hướng đến trong một tương lai gần sẽ trở thành một trong những nền tảng đa dịch vụ uy tín, thành công và được tin yêu bậc nhất bởi khách hàng trong nước và quốc tế.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                                        <div>
+                                            <img class="tuyendung__box1__img" src="images/Group2.png" alt="">
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="tuyendung__box1__title uk-margin-medium">
+                                                <div>Sứ</div>
+                                                Mệnh
+                                            </div>
+                                            <div class="about__thongtin__box">
+                                                <div class="about__thongtin__txt2">Levista cam kết mang đến tới khách hàng các sản phẩm tinh hoa bất động sản và đồng hành với khách hàng trên hành trình sinh lợi bền vững.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="uk-width-1-1" src="images/about/MaskGroup1.png" alt="">
+                </div>
+            </div>
+        </div>
         <div class="section">Some section</div>
         <div class="section">
             <div>
