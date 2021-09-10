@@ -1,5 +1,13 @@
+.uk-sticky-placeholder{
+  .fullpage &{
+    height: 0 !important;
+  }
+}
 .section{
-  height: 100% !important;
+  padding-top: 50px;
+  @include media-breakpoint-up('m'){
+    padding-top: 93px;
+  }
   &:last-child{
     >*{
       height: 100% !important;

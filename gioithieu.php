@@ -7,7 +7,9 @@
         <div class="section">Some section</div>
         <div class="section">Some section</div>
         <div class="section">
-            <?php require "template-parts/layouts/footer1.php"; ?>
+            <div>
+                <?php require "template-parts/layouts/footer1.php"; ?>
+            </div>
         </div>
     </div>
 </div>
@@ -16,7 +18,11 @@
     new fullpage('#fullpage', {
         //options here
         autoScrolling:true,
-        scrollHorizontally: true
+        scrollHorizontally: true,
+        loopBottom: true,
+
+        //Design
+
     });
 
     //methods
