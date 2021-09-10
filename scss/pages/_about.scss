@@ -4,6 +4,9 @@
   }
 }
 .section{
+  background-image: url("images/bg1.png");
+  background-size: cover;
+  background-position: center;
   padding-top: 50px;
   @include media-breakpoint-up('m'){
     padding-top: 93px;
@@ -12,6 +15,43 @@
     >*{
       height: 100% !important;
       vertical-align: bottom;
+    }
+  }
+}
+.about{
+  &__containerExpandRight{
+    @include media-breakpoint-up('m'){
+      padding-right: 0;
+      max-width: calc(50% + 40px + 40px + (1200px / 2) - 40px);
+    }
+  }
+  &__thongtin{
+    &__box{
+      >*{
+        &:nth-child(n+2){
+          margin-top: 15px;
+          @include media-breakpoint-up('m'){
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+    &__txt1{
+      font-family: $font-Roboto-Bold;
+      color: #000000;
+      line-height: (20/17);
+      @extend .fz-17;
+    }
+    &__txt2{
+      line-height: (21/18);
+      @extend .fz-18;
+      color: #000000;
+    }
+    &__txt3{
+      color: #EC1C24;
+      line-height: (25/21);
+      @extend .fz-21;
+      font-family: $font-Roboto-Bold;
     }
   }
 }
