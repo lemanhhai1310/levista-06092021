@@ -1,5 +1,6 @@
 <?php $data["title"] = "TUYỂN DỤNG"; ?>
 <?php $fullPage = false; ?>
+<?php $footer = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
 

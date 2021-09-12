@@ -1,5 +1,6 @@
 <?php $data["title"] = "GIỚI THIỆU"; ?>
 <?php $fullPage = true; ?>
+<?php $footer = false; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div>
     <div id="fullpage">
@@ -213,17 +214,162 @@
 
         <!--Triết lý Kinh doanh-->
         <div class="section">
-            
+            <div class="uk-container uk-container-expand-right about__containerExpandRight uk-height-1-1">
+                <div class="uk-grid-match uk-height-1-1 uk-grid-27-m" uk-grid>
+                    <div class="uk-width-expand">
+                        <div class="uk-flex-middle uk-flex">
+                            <div>
+                                <div class="uk-margin-large">
+                                    <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                                        <div>
+                                            <img class="tuyendung__box1__img" src="images/Group2.png" alt="">
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="tuyendung__box1__title uk-margin-medium">
+                                                <div>Triết lý</div>
+                                                Kinh doanh
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about__trietly__txt">
+                                    Nhu cầu của mỗi khách hàng là mối quan tâm hàng đầu của chúng tôi, và Levista tin tưởng rằng chỉ có sự đồng hành cùng khách hàng mới đem lại giá trị đáp ứng đúng với nhu cầu đó, một cách hiệu quả và bền vững.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-3-5@m">
+                        <img class="uk-responsive-height uk-responsive-width uk-visible@m" src="images/about/Group331.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <!--/Triết lý Kinh doanh-->
 
-        <!---->
-        <div class="section">Some section</div>
-        <!--/-->
+        <!--Đội Ngũ Nhân Viên-->
+        <div class="section">
+            <div class="uk-position-relative">
+                <div class="uk-position-top" style="background: rgba(229, 229, 229, 0.6);">
+                    <canvas width="2560" height="484"></canvas>
+                </div>
+                <div class="uk-position-relative uk-section">
+                    <div class="uk-container">
+                        <div class="uk-margin-medium">
+                            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                                <div>
+                                    <img class="tuyendung__box1__img" src="images/Group2.png" alt="">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="tuyendung__box1__title uk-margin-medium">
+                                        <div>Đội Ngũ</div>
+                                        Nhân Viên
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-flex-bottom" uk-grid>
+                            <div class="uk-width-1-3@m">
+                                <div class="uk-text-center uk-margin-medium">
+                                    <div class="uk-cover-container uk-border-circle uk-width-3-4@m">
+                                        <img src="images/about/Asset15.png" alt="" uk-cover>
+                                        <canvas width="500" height="500"></canvas>
+                                    </div>
+                                </div>
+                                <div class="about__thongtin__txt2">100% đội ngũ nhân viên Levista có bằng chứng nhận môi giới bất động sản chuyên nghiệp và được đào tạo bởi những chuyên gia hàng đầu.</div>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="uk-child-width-1-4@m uk-flex-center uk-grid-10" uk-grid>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/about/img1.png" alt="" uk-cover>
+                                            <canvas width="500" height="500"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/about/img2.png" alt="" uk-cover>
+                                            <canvas width="500" height="500"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/about/img3.png" alt="" uk-cover>
+                                            <canvas width="500" height="500"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/about/img4.png" alt="" uk-cover>
+                                            <canvas width="500" height="500"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/about/img5.png" alt="" uk-cover>
+                                            <canvas width="500" height="500"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/about/img6.png" alt="" uk-cover>
+                                            <canvas width="500" height="500"></canvas>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/about/img7.png" alt="" uk-cover>
+                                            <canvas width="500" height="500"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Đội Ngũ Nhân Viên-->
 
-        <!---->
-        <div class="section">Some section</div>
-        <!--/-->
+        <!--Thị Trường Chủ Đạo-->
+        <div class="section thitruong">
+            <div class="uk-section">
+                <div class="uk-container">
+                    <div class="uk-margin-medium">
+                        <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                            <div>
+                                <img class="tuyendung__box1__img" src="images/Group2.png" alt="">
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="tuyendung__box1__title uk-margin-medium">
+                                    <div>Thị Trường</div>
+                                    Chủ Đạo
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-section-large" style="background: rgba(229, 229, 229, 0.6);">
+                <div class="uk-container uk-container-expand-right uk-container-item-padding-remove-right">
+                    <div class="uk-flex-bottom" uk-grid>
+                        <div class="uk-width-expand">
+                            <p class="about__thitruong__txt"><span>LEVISTA VIETNAM</span> lựa chọn những tinh hoa Bất động sản có GIÁ TRỊ TỐT tại những thị trường Bất động sản có sức phát triển nhanh và mạnh mẽ như Đà Nẵng, Quảng Ninh và khu vực vệ tinh Hà Nội - ở đó gắn liền với <span>sức khoẻ và lợi ích bền vững</span> của khách hàng - đó là thước đo những chân giá trị đại diện cho chân dung của một khách hàng thành công trong thời đại mới.</p>
+
+                            <p class="about__thitruong__txt">Bởi chúng tôi thực sự hiểu rằng: <br>
+                                <span>“SỨC KHOẺ LÀ THƯỚC ĐO GIÁ TRỊ BỀN VỮNG NHẤT”</span></p>
+                        </div>
+                        <div class="uk-width-auto@m">
+                            <img src="images/about/MaskGroup2.png" alt="">
+                            <div class="uk-margin about__thitruong__txt1">
+                                <div>Swanlake Residence The Onsen</div>
+                                Siêu phẩm căn hộ khoáng nóng tự nhiên đầu tiên tại Hà Nội.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Thị Trường Chủ Đạo-->
 
         <div class="section">
             <div>

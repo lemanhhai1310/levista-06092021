@@ -1,5 +1,5 @@
 .uk-sticky-placeholder{
-  .fullpage &{
+  [class*='fp-viewing-'] &{
     height: 0 !important;
   }
 }
@@ -10,6 +10,16 @@
   //padding-top: 50px !important;
   @include media-breakpoint-up('m'){
     //padding-top: 93px !important;
+  }
+  >*{
+    .uk-position-relative &{
+      //vertical-align: inherit;
+    }
+  }
+  &.thitruong{
+    >*{
+      vertical-align: bottom;
+    }
   }
   &:last-child{
     >*{
@@ -23,6 +33,35 @@
     @include media-breakpoint-up('m'){
       padding-right: 0;
       max-width: calc(50% + 40px + 40px + (1200px / 2) - 40px);
+    }
+  }
+  &__thitruong{
+    &__txt1{
+      color: #000000;
+      line-height: (16/14);
+      @extend .fz-14;
+      font-family: $font-Roboto-LightItalic;
+      div{
+        font-family: $font-Roboto-Bold;
+      }
+    }
+    &__txt{
+      color: #000000;
+      line-height: (21/18);
+      @extend .fz-18;
+      span{
+        color: #EC1C24;
+        font-family: $font-Roboto-Bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &__trietly{
+    &__txt{
+      color: #000000;
+      line-height: (35/30);
+      @extend .fz-30;
+      font-family: $font-Roboto-Bold;
     }
   }
   &__lido{

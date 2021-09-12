@@ -1,5 +1,6 @@
 <?php $data["title"] = "GIỚI THIỆU"; ?>
 <?php $fullPage = false; ?>
+<?php $footer = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-section">
     <div class="uk-container uk-container-small">

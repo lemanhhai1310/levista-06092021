@@ -1,5 +1,5 @@
 <?php $data["title"] = "PREVILEGE"; ?>
-<?php $fullPage = false; ?>
+<?php $fullPage = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-position-relative previlege">
     <img class="uk-width-1-1 uk-visible@m" src="images/privileges.png" alt="">
@@ -18,7 +18,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="previlege__desc">Trở thành thành viên của hệ thống Levista Privileges, ngoài việc được sử dụng hàng nghàn ưu đãi đến từ các đối tác thân thiết của Levista như Vietnam Airlines, California Fitness và các Resort 5* trên khắp cả nước, với hệ thống điểm thưởng của mình, khách hàng có thêm quyền lợi  về quản lý các sản phẩm bất động sản của mình cũng như được hỗ trợ pháp lý chuyên nghiệp ngay cả khi kết thúc giao dịch.</p>
+                    <p class="previlege__desc uk-margin-medium">Trở thành thành viên của hệ thống Levista Privileges, ngoài việc được sử dụng hàng nghàn ưu đãi đến từ các đối tác thân thiết của Levista như Vietnam Airlines, California Fitness và các Resort 5* trên khắp cả nước, với hệ thống điểm thưởng của mình, khách hàng có thêm quyền lợi  về quản lý các sản phẩm bất động sản của mình cũng như được hỗ trợ pháp lý chuyên nghiệp ngay cả khi kết thúc giao dịch.</p>
                 </div>
             </div>
         </div>

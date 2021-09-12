@@ -39,6 +39,7 @@
         @extend .fz-13;
         font-family: $font-Roboto;
         position: relative;
+        color: #FFFFFF;
         &:before{
           content: '';
           display: block;
