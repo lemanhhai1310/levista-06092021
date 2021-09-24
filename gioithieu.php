@@ -151,7 +151,10 @@
                         </div>
                     </div>
                     <div class="uk-width-1-2@m">
-                        <img class="uk-responsive-width uk-responsive-height uk-visible@m" src="images/about/Group330.png" alt="">
+                        <div class="uk-cover-container uk-visible@m">
+                            <img class="" src="images/about/Group330.png" alt="" uk-cover>
+                            <canvas width="732" height="1080"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -239,7 +242,10 @@
                         </div>
                     </div>
                     <div class="uk-width-3-5@m">
-                        <img class="uk-responsive-height uk-responsive-width uk-visible@m" src="images/about/Group331.png" alt="">
+                        <div class="uk-cover-container uk-visible@m">
+                            <img class="" src="images/about/Group331.png" alt="" uk-cover>
+                            <canvas width="732" height="1080"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
