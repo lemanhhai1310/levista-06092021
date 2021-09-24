@@ -57,7 +57,12 @@
         <!--/Tim kiem bds-->
 
         <!--Banner-->
-        <div><img class="uk-width-1-1" src="images/du-an5/MaskGroup.png" alt=""></div>
+        <div>
+            <div class="uk-cover-container">
+                <img src="images/du-an5/MaskGroup.png" alt="" uk-cover>
+                <canvas width="2560" height="884"></canvas>
+            </div>
+        </div>
         <!--/Banner-->
 
         <!--scrollspy-nav-->

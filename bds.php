@@ -57,7 +57,12 @@
         <!--/Tim kiem bds-->
 
         <!--Banner-->
-        <div><img class="uk-width-1-1" src="images/bds/MaskGroup.png" alt=""></div>
+        <div>
+            <div class="uk-cover-container">
+                <img src="images/bds/MaskGroup.png" alt="" uk-cover>
+                <canvas width="2560" height="884"></canvas>
+            </div>
+        </div>
         <!--/Banner-->
 
         <!--Content-->
@@ -136,7 +141,7 @@
                         <div class="uk-position-relative uk-text-center bds__content__header">
                             <h2 class="uk-h2 bds__content__header__title">Có thể bạn cần tìm</h2>
                         </div>
-                        <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-20-m" uk-grid>
+                        <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-20-m" uk-grid>
                             <?php
                             $data = array(
                                 array(
@@ -175,7 +180,7 @@
                         <div class="uk-position-relative uk-text-center bds__content__header">
                             <h2 class="uk-h2 bds__content__header__title">dự án tiêu biểu</h2>
                         </div>
-                        <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-20-m" uk-grid>
+                        <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-match uk-grid-small uk-grid-20-m" uk-grid>
                             <?php
                             $data = array(
                                 array(

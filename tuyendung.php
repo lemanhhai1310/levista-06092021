@@ -2,7 +2,7 @@
 <?php $fullPage = false; ?>
 <?php $footer = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 2560:884">
 
     <ul class="uk-slideshow-items">
         <li>

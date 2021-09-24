@@ -108,7 +108,7 @@
                                                 Cốt Lõi
                                             </div>
                                             <div class="uk-flex-right" uk-grid>
-                                                <div class="uk-width-3-5@m">
+                                                <div class="uk-width-3-5@l">
                                                     <div class="about__giatri__item">
                                                         <div class="uk-grid-10" uk-grid>
                                                             <div class="uk-width-auto">
@@ -270,15 +270,16 @@
                         <div class="uk-flex-bottom" uk-grid>
                             <div class="uk-width-1-3@m">
                                 <div class="uk-text-center uk-margin-medium">
-                                    <div class="uk-cover-container uk-border-circle uk-width-3-4@m">
+                                    <div class="uk-cover-container uk-border-circle uk-display-inline-block" uk-toggle="cls: uk-width-3-4@m; mode: media; media: @m">
                                         <img src="images/about/Asset15.png" alt="" uk-cover>
-                                        <canvas width="500" height="500"></canvas>
+                                        <canvas class="uk-visible@m" width="500" height="500"></canvas>
+                                        <canvas class="uk-hidden@m" width="150" height="150"></canvas>
                                     </div>
                                 </div>
                                 <div class="about__thongtin__txt2">100% đội ngũ nhân viên Levista có bằng chứng nhận môi giới bất động sản chuyên nghiệp và được đào tạo bởi những chuyên gia hàng đầu.</div>
                             </div>
                             <div class="uk-width-expand">
-                                <div class="uk-child-width-1-4@m uk-flex-center uk-grid-10" uk-grid>
+                                <div class="uk-child-width-1-4 uk-flex-center uk-grid-10" uk-grid>
                                     <div>
                                         <div class="uk-cover-container uk-border-circle">
                                             <img src="images/about/img1.png" alt="" uk-cover>
@@ -348,9 +349,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="uk-section-large" style="background: rgba(229, 229, 229, 0.6);">
-                <div class="uk-container uk-container-expand-right uk-container-item-padding-remove-right">
+                <div class="uk-container uk-container-expand-right" uk-toggle="cls: uk-container-item-padding-remove-right; mode: media; media: @m">
                     <div class="uk-flex-bottom" uk-grid>
                         <div class="uk-width-expand">
                             <p class="about__thitruong__txt"><span>LEVISTA VIETNAM</span> lựa chọn những tinh hoa Bất động sản có GIÁ TRỊ TỐT tại những thị trường Bất động sản có sức phát triển nhanh và mạnh mẽ như Đà Nẵng, Quảng Ninh và khu vực vệ tinh Hà Nội - ở đó gắn liền với <span>sức khoẻ và lợi ích bền vững</span> của khách hàng - đó là thước đo những chân giá trị đại diện cho chân dung của một khách hàng thành công trong thời đại mới.</p>
