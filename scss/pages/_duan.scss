@@ -1,4 +1,101 @@
 .duan{
+  &__nhadautu{
+    &__box2{
+      &__desc{
+        color: #000000;
+        line-height: (21/18);
+        @extend .fz-18;
+        &__c1{
+          color: #EC1C24;
+          font-family: $font-Roboto-Bold;
+        }
+        &__c2{
+          line-height: (35/30);
+          @extend .fz-30;
+          font-family: $font-Roboto-Bold;
+        }
+      }
+      &__list{
+        >li{
+          margin: 0 !important;
+          color: #000000;
+          line-height: (21/18);
+          @extend .fz-18;
+          span{
+            font-family: $font-Roboto-Bold;
+          }
+        }
+      }
+      &__img{
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+      }
+      &__txt1{
+        color: #000000;
+        line-height: (25/21);
+        @extend .fz-21;
+        font-family: $font-CormorantInfant-Bold;
+        text-transform: uppercase;
+      }
+      &__txt2{
+        margin-top: -17px;
+        color: #000000;
+        line-height: (44/36);
+        @extend .fz-36;
+        font-family: $font-CormorantInfant-Italic;
+        span{
+          line-height: (121/100);
+          @extend .fz-100;
+        }
+        i{
+          line-height: (25/21);
+          @extend .fz-21;
+        }
+      }
+      &__txt3{
+        color: #818181;
+        line-height: (16/14);
+        @extend .fz-14;
+        font-family: $font-Roboto-LightItalic;
+      }
+      &__txt4{
+        color: #000000;
+        line-height: (21/18);
+        @extend .fz-18;
+        font-family: $font-Roboto-LightItalic;
+      }
+    }
+    &__box1{
+      border-top: 1px solid #818181;
+      padding-top: 15px;
+      &__flexauto{
+        max-height: 50px;
+        @include media-breakpoint-up('m'){
+          max-height: 101px;
+        }
+      }
+      &__title{
+        color: #4F4F4F;
+        line-height: (21/18);
+        @extend .fz-18;
+        font-family: $font-Roboto-Bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+      &__desc{
+        color: #000000;
+        line-height: (16/14);
+        @extend .fz-14;
+        font-family: $font-Roboto-LightItalic;
+        margin: 0;
+        span{
+          color: #EC1C24;
+          font-family: $font-Roboto-BoldItalic;
+        }
+      }
+    }
+  }
   &__sodo{
     &__tab{
       margin-top: 30px !important;
